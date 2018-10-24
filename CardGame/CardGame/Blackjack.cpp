@@ -234,8 +234,8 @@ void blackjack()
 	do {
 		//exit game if money reaches 0
 		if (money <= 0) {
-			cout << "Not enough money, sorry!" << endl;
-			Sleep(1000);
+			cout << "\nNot enough money, sorry!" << endl;
+			Sleep(2000);
 			break;
 		}
 
