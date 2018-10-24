@@ -7,7 +7,7 @@ This program is the casino game Blackjack, coded in C++ using Microsoft Visual S
 Click [here](https://github.com/AALASL/final/releases/latest) to go to our latest release.
 
 ### Demo Video
-[![Blackjack Demo](https://img.youtube.com/vi/XFWo2ahqsIw/mqdefault.jpg.jpg)](https://youtu.be/XFWo2ahqsIw)
+[![Blackjack Demo](https://img.youtube.com/vi/XFWo2ahqsIw/mqdefault.jpg)](https://youtu.be/XFWo2ahqsIw)
 
 ## Flow Chart
 <img src="https://raw.githubusercontent.com/AALASL/final/master/C%2B%2B%20Final%20Project%20Flow%20Chart.png" width ="800">
