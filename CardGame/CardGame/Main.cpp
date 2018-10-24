@@ -18,6 +18,7 @@ int main()
 {
 	//set console size and title
 	setConsoleSize(400, 500);
+	setConsoleFontSize(16);
 	setConsoleTitle("Blackjack");
 	setConsoleColor("purple");
 	cout << "\n-------------\n";

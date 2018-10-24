@@ -437,6 +437,7 @@ void blackjack()
 			goAgain = false;
 		}
 		//asks the user if they would like to play again
+
 			setConsoleColor("cyan"); cout << "\nPlay again (Y/N)? >> "; setConsoleColor("white"); cin >> yesOrNo;
 			yesOrNo = toupper(yesOrNo);
 			switch (yesOrNo) {
@@ -447,8 +448,9 @@ void blackjack()
 				goAgain = false;
 				break;
 			default: //exits the actual game
-				cout << "\nInvalid answer, exiting...";
-				goAgain = false;
+				setConsoleColor("red"); cout << "\nInvalid input, restarting..."; setConsoleColor("white");
+				Sleep(2000);
+				goAgain = true;
 			}
 
 		//resets the values of most booleans, so it acts like a new game
